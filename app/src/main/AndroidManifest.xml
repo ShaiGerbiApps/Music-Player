@@ -2,7 +2,7 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.simplemobiletools.musicplayer"
+    package="com.shaigerbi.musicplayer"
     android:installLocation="auto">
 
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
@@ -129,23 +129,23 @@
             android:name=".services.MusicService"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.simplemobiletools.musicplayer.action.INIT"/>
-                <action android:name="com.simplemobiletools.musicplayer.action.INIT_PATH"/>
-                <action android:name="com.simplemobiletools.musicplayer.action.INIT_QUEUE"/>
-                <action android:name="com.simplemobiletools.musicplayer.action.FINISH"/>
-                <action android:name="com.simplemobiletools.musicplayer.action.FINISH_IF_NOT_PLAYING"/>
-                <action android:name="com.simplemobiletools.musicplayer.action.PREVIOUS"/>
-                <action android:name="com.simplemobiletools.musicplayer.action.PAUSE"/>
-                <action android:name="com.simplemobiletools.musicplayer.action.PLAYPAUSE"/>
-                <action android:name="com.simplemobiletools.musicplayer.action.NEXT"/>
-                <action android:name="com.simplemobiletools.musicplayer.action.EDIT"/>
-                <action android:name="com.simplemobiletools.musicplayer.action.PLAY_TRACK"/>
-                <action android:name="com.simplemobiletools.musicplayer.action.REFRESH_LIST"/>
-                <action android:name="com.simplemobiletools.musicplayer.action.UPDATE_NEXT_TRACK"/>
-                <action android:name="com.simplemobiletools.musicplayer.action.SET_PROGRESS"/>
-                <action android:name="com.simplemobiletools.musicplayer.action.SKIP_BACKWARD"/>
-                <action android:name="com.simplemobiletools.musicplayer.action.SKIP_FORWARD"/>
-                <action android:name="com.simplemobiletools.musicplayer.action.BROADCAST_STATUS"/>
+                <action android:name="com.shaigerbi.musicplayer.action.INIT"/>
+                <action android:name="com.shaigerbi.musicplayer.action.INIT_PATH"/>
+                <action android:name="com.shaigerbi.musicplayer.action.INIT_QUEUE"/>
+                <action android:name="com.shaigerbi.musicplayer.action.FINISH"/>
+                <action android:name="com.shaigerbi.musicplayer.action.FINISH_IF_NOT_PLAYING"/>
+                <action android:name="com.shaigerbi.musicplayer.action.PREVIOUS"/>
+                <action android:name="com.shaigerbi.musicplayer.action.PAUSE"/>
+                <action android:name="com.shaigerbi.musicplayer.action.PLAYPAUSE"/>
+                <action android:name="com.shaigerbi.musicplayer.action.NEXT"/>
+                <action android:name="com.shaigerbi.musicplayer.action.EDIT"/>
+                <action android:name="com.shaigerbi.musicplayer.action.PLAY_TRACK"/>
+                <action android:name="com.shaigerbi.musicplayer.action.REFRESH_LIST"/>
+                <action android:name="com.shaigerbi.musicplayer.action.UPDATE_NEXT_TRACK"/>
+                <action android:name="com.shaigerbi.musicplayer.action.SET_PROGRESS"/>
+                <action android:name="com.shaigerbi.musicplayer.action.SKIP_BACKWARD"/>
+                <action android:name="com.shaigerbi.musicplayer.action.SKIP_FORWARD"/>
+                <action android:name="com.shaigerbi.musicplayer.action.BROADCAST_STATUS"/>
             </intent-filter>
         </service>
 
@@ -184,7 +184,7 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.simplemobiletools.musicplayer.action.NOTIFICATION_DISMISSED" />
+                <action android:name="com.shaigerbi.musicplayer.action.NOTIFICATION_DISMISSED" />
             </intent-filter>
         </receiver>
 
